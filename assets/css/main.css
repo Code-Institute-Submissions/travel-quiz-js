@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body {
-    background-image: url("../images/g.jpg");
+    background-image: url("../images/mobileHomePag.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -14,14 +14,25 @@ body {
 .homePageHeading {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: yellow;
+    color: #07375d;
+    padding-top: 100px;
+    font-weight: 900;
+    font-size: 30px;
 }
 
 .btnOne {
     text-align: center;
+    padding-top: 40px;
+
 }
 
 button {
     border-radius: 30px;
     
+}
+
+.startbtn {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
