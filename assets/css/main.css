@@ -11,14 +11,27 @@ body {
     background-attachment: fixed;
 }
 
+/*--- Headings ----*/
+
 .homePageHeading {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #07375d;
-    padding-top: 100px;
+    padding-top: 30px;
     font-weight: 900;
     font-size: 30px;
 }
+
+.question {
+     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #07375d;
+    padding-top: 30px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+/*---- Button ----*/
 
 .btnOne {
     text-align: center;
@@ -26,8 +39,19 @@ body {
 
 }
 
+.answerOne {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.answerTwo {
+     text-align: center;
+    padding-top: 40px;
+}
+
 button {
     border-radius: 30px;
+    text-decoration: none;
     
 }
 
@@ -35,4 +59,9 @@ button {
     font-size: 30px;
     padding-left: 10px;
     padding-right: 10px;
+    text-decoration: none;
 }
+
+/*---- Nav bar from  ---*/
+
+

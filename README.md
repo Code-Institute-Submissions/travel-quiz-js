@@ -1,35 +1,86 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<h1>Travel Quiz</h1>
 
-Welcome USER_NAME,
+<p>This site is a fully interative and responsive travel quiz, to help the user
+decide on where is best to travel dependant on their specific wants and needs 
+at that time. Once answered a comprehensive set of questions, they will be given 
+a tailored recommendation for a destination, and more information as of where this place is
+on Google maps. I am also looking to include links to a flight and accomodation
+comparison sites.</p>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+<h2>Why is this project unique?</h2>
+<p>There are many accomodation and flight comparison sites out there, but you need to know
+the destination prior to researching. There are also quizzes out there to help you make a 
+decision on your destination. As far as I can see there is not a site to combine all the 
+neccessary steps to travel, from researching the best place for you, to booking your trip.
+As you can see in the `Releases` section, the amount and specificity of the questions will 
+increase and therefore the quiz will be unique within itself.</p>
 
-## Gitpod Reminders
+<h2>UX</h2>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<h3>Project Goals</h3>
+<p>To provide an efficient way to help a user find there ideal travel destination
+without having to to lots of research into their requirements. Also to provide
+more information on that destination to aid with the follow up research needed.</p>
 
-`python3 -m http.server`
+<h3>User Goals</h3>
+<p>To understand where to go away on their next travel exercution, somewhere that is
+completed suited to their preferences, saving them lots of time. Also wanting clear paths
+on where to go next so they can plan their trip</p>
 
-A blue button should appear to click: *Expose*,
+<h3>User Stories</h3>
+<h4>As a user...</h4>
+<ol>
+<li>I want simple, concise questions so I can complete the quiz quickly.</li>
+<li>I don't want too many answer options so I don't get overwhelmed by the choice and can't make a decision.</li>
+<li>I want to recieve confirmation I have answered and moved onto the next question.</li>
+<li>I want a simple design, so not to distract from the questions in the quiz.</li>
+<li>I want information on my chosen country so I can follow up from the quiz, there is a reason I decided to take the 
+quiz and therefore expect a stepping stone into actioning my trip.</li>
+</ol>
 
-Another blue button should appear to click: *Open Browser*.
+<h2>Design choices</h2>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<h2>Wireframes</h2>
 
-A blue button should appear to click: *Expose*,
+<h2>Features</h2>
 
-Another blue button should appear to click: *Open Browser*.
+<h2>Releases</h2>
+<h3>Release 1</h3>
+<h3>Release 2</h3>
+<h3>Release 3</h3>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+<h2>Technologies Used</h2>
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+<li></li>
+<li>BootStrap4</li>
+<li>GitHub</li>
+<li>GitPod</li>
+<li>Google Fonts</li>
+<li></li>
+</ul>
 
-## Updates Since The Instructional Video
+<h2>Testing</h2>
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+<h2>Deployment</h2>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<h2>Credits</h2>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<h3>Content</h3>
+<p>All content written in this project was written by the developer.</p>
 
---------
+<h3>Media (Images)</h3>
 
-Happy coding!
+<h3>Code</h3>
+<ul>
+<li>Nav bar from Codeply & Bootstrap 4 https://www.codeply.com/go/QAXbNGbWPA/bootstrap-4-navbar-transparent</li>
+</ul>
+
+<h3>Achknowledgments</h3>
+<ul>
+<li>A special thanks to my mentor Spencer...</li>
+<li>Also to the student care team at The Code Institute for helping troubleshoot my code at those head scratching
+moments!</li>
+</ul>
