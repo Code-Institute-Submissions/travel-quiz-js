@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body {
-    background-image: url("../images/mobileHomePag.jpg");
+    background-image: url("../images/backgroundImage.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    font-family: 'Montserrat', sans-serif;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-attachment: fixed;
+    text-align: center;
 }
 
 /*--- Headings ----*/
@@ -16,11 +18,12 @@ body {
 .homePageHeading {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    color: #07375d;
-    padding-top: 30px;
+    color: #ffffff;
+    padding-top: 40px;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 23px;
 }
+
 
 .question {
      text-align: center;
@@ -33,35 +36,159 @@ body {
 
 /*---- Button ----*/
 
-.btnOne {
+.startQuizBtn {
     text-align: center;
-    padding-top: 40px;
-
+    padding-top: 50px;
+    font-size: 23px;
 }
 
-.answerOne {
-    text-align: center;
-    padding-top: 40px;
-}
-
-.answerTwo {
-     text-align: center;
-    padding-top: 40px;
-}
 
 button {
+    color: #3d6086;
     border-radius: 30px;
     text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(125,116,125,1);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(125,116,125,1);
+    box-shadow: 1px 5px 5px 0px rgba(125,116,125,1);
+    background-color: #f3cef9;
     
 }
 
-.startbtn {
-    font-size: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-decoration: none;
+
+button > a {
+    color: #3d6086;
 }
+
+button > a:hover {
+    text-decoration: none; 
+    color: #3d6086;
+}
+
+button:hover{
+    background-color:#e4b0ec;
+}
+
+.question{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.answers {
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+}
+.answers label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.next {
+    padding-top: 20px;
+}
+
+.previous {
+    padding-top: 20px;
+}
+
+.submit {
+    padding-top: 20px;
+}
+
+@media (min-width:1024px) {
+    button {
+        font-size: 30px;
+    }
+}
+
+
+@media (min-width:767px) {
+    .startQuizBtn {
+          padding-top: 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+  .startQuizBtn {
+    padding-top: 100px;
+}
+
+@media (min-width:765px) {
+    .homePageHeading {
+          font-size: 40px;
+    }
+}
+
+@media (min-width:1024px) {
+    .homePageHeading {
+          font-size: 35px;
+          padding-top: 7px;
+    }
+}
+
+@media (min-width:1440px) {
+    .homePageHeading {
+        font-size: 50px;
+    }
+}
+
+
+
 
 /*---- Nav bar from  ---*/
 
+nav {
+    background-color: transparent!important;
+}
 
+.navbar-light .navbar-nav .active>.nav-link {
+        color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(225, 255, 255, 0.6);
+}
+
+/*-- Quiz Slide ---*/
+
+.slide{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.active-slide{
+    opacity: 1;
+    z-index: 2;
+}
+
+/* All slides are layerred on top of each other.. when you change the class, the right slide comes to the surface. */
+
+.quiz-container{
+    position: relative;
+    height: 180px;
+    margin-top: 40px;
+    background-color: #fff;
+    display: inline-block;
+    opacity: 0.6;
+    border-radius: 15px;
+}
+
+/* @media (min-width: 1024px) {
+    .quiz-container {
+        height: 180px;
+    }
+} */
+
+/*-- Google Maps -- */
+
+#map {
+    width: auto;
+    height: 300px;
+    position: static;
+}
