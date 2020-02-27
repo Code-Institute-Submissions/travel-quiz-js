@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-image: url("../images/backgroundImage.jpg");
@@ -13,20 +16,37 @@ body {
     text-align: center;
 }
 
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.siteContent {
+  flex: 1;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
 /*--- Headings ----*/
 
 .homePageHeading {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
-    padding-top: 40px;
+    padding-top: 20px;
     font-weight: 900;
-    font-size: 23px;
+    font-size: 32px;
+    line-height: 50px;
 }
 
 
 .question {
-     text-align: center;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #07375d;
     padding-top: 30px;
@@ -34,6 +54,15 @@ body {
     font-size: 30px;
 }
 
+.aboutInfo {
+    color: #07375d;
+    font-size: 18px;
+    background-color: #fff;
+    opacity: 0.8;
+    border-radius: 15px;
+    padding: 10px;
+    line-height: 30px;
+}
 /*---- Button ----*/
 
 .startQuizBtn {
@@ -192,3 +221,14 @@ nav {
     height: 300px;
     position: static;
 }
+
+/* @media (min-width: 600px) {
+#map {
+    width: auto;
+    height: 300px;
+    position: static;
+
+    }
+} */
+
+/* --- Cards --- */
