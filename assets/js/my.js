@@ -1,3 +1,4 @@
+
 (function () {
 
     // functions: 
@@ -15,7 +16,7 @@
                 for (letter in currentQuestion.answers) {
                     answers.push(
                         `<label>
-                <input type="radio" name="question${questionNumber}" value="${letter}">  
+                <input type="radio" class="radioBig" name="question${questionNumber}" value="${letter}">  
                 ${letter} :
                 ${currentQuestion.answers[letter]}
                 </label>`
@@ -65,13 +66,13 @@
 
         switch (answerArray) {
             case 'TTTTT':
-                countryToGoTo = '1';
+                countryToGoTo = 'HAWAII!';
             case 'TTTTF':
-                countryToGoTo = '2';
+                countryToGoTo = 'LAOS!';
             case 'TTTFT':
-                countryToGoTo = '3';
+                countryToGoTo = 'SANTIAGO, U.S.A!';
             case 'TTTFF':
-                countryToGoTo = '4';
+                countryToGoTo = 'VALENCIA, SPAIN!';
             case 'TTFTT':
                 countryToGoTo = '5';
             case 'TTFTF':
@@ -228,3 +229,23 @@
     
 
 })();
+
+/*-- JavaScript for Google Maps ---*/
+
+
+function initMap() {
+    var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 3,
+        center: {
+            lat: 46.619261,     // add a case statement with all lng and lat, depends on the tf string.. 
+            lng: -33.1344766
+        }
+    });
+}
+
+// 
+/*-- Javascript for About page stylings --*/
+
+// $("#card").mouseenter(function() {
+//     $("#card").css("color", "#fff");
+// });
