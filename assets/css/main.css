@@ -33,6 +33,11 @@ footer {
     text-align: center;
 }
 
+.footerText {
+      padding-left: 10px;
+      padding-right: 10px;
+}
+
 /*--- Headings ----*/
 
 .homePageHeading {
@@ -51,10 +56,11 @@ footer {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #07375d;
-    padding-top: 30px;
+    padding-top: 15px;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 27px;
 }
+
 
 .aboutInfo {
     color: #07375d;
@@ -74,6 +80,9 @@ footer {
     font-size: 23px;
 }
 
+#startQuiz {
+    font-size: 30px!important;
+}
 
 button {
     color: #3d6086;
@@ -86,6 +95,7 @@ button {
     -moz-box-shadow: 1px 5px 5px 0px rgba(125,116,125,1);
     box-shadow: 1px 5px 5px 0px rgba(125,116,125,1);
     background-color: #f3cef9;
+    font-size: 20px;
     
 }
 
@@ -102,13 +112,10 @@ button:hover{
     background-color:#e4b0ec;
 }
 
-.question{
-    font-size: 30px;
-    margin-bottom: 10px;
-}
 .answers {
-    margin-bottom: 20px;
-    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
     display: inline-block;
     font-weight: 600;
 }
@@ -171,14 +178,20 @@ nav {
 
 /* All slides are layerred on top of each other.. when you change the class, the right slide comes to the surface. */
 
+/*--- Quiz container ---*/
+
 .quiz-container{
     position: relative;
-    height: 180px;
-    margin-top: 40px;
+    height: 240px;
     background-color: #fff;
     display: inline-block;
     opacity: 0.6;
     border-radius: 15px;
+}
+
+.quiz {
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 
@@ -217,7 +230,47 @@ nav {
     padding-right: 15px;
 }
 
+/*-- Animation ---*/
+
+/* .animation {
+    padding-bottom: 30px;
+}
+
+hr {
+  border: none;
+  border-top: 20px dotted #fff;
+  color: #fff;
+  background-color: transparent;
+  width: 100%;
+} */
+
+
 /*-- Media Queries ---*/
+
+@media (min-width: 375px) {
+    .quiz-container {
+        height: 220px;
+    }
+}
+
+@media (min-width:768px) {
+    .homePageHeading {
+          font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    .quiz-container {
+        margin-top: 40px;
+        height: 180px;
+    }
+}
+
+@media (min-width: 768px) {
+    .question {
+        padding-top: 20px;
+    }
+}
 
 @media (min-width:768px) {
     button {
@@ -226,20 +279,15 @@ nav {
 }
 
 
-@media (min-width:767px) {
+@media (min-width:768px) {
     .startQuizBtn {
           padding-top: 50px;
     }
 }
 
 @media (min-width: 1024px) {
-  .startQuizBtn {
-    padding-top: 100px;
-}
-
-@media (min-width:765px) {
-    .homePageHeading {
-          font-size: 40px;
+    .question {
+        font-size: 34px;
     }
 }
 
@@ -249,9 +297,15 @@ nav {
           padding-top: 7px;
     }
 }
+@media (min-width: 1024px) {
+  .startQuizBtn {
+    padding-top: 100px;
+}
 
 @media (min-width:1440px) {
     .homePageHeading {
         font-size: 50px;
     }
 }
+
+
