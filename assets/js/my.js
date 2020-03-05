@@ -67,100 +67,100 @@
 
         switch (answerArray) {
             case 'TTTTT':
-                countryToGoTo = 'HAWAII!';
+                countryToGoTo = 'HAWAII';
                 break;
             case 'TTTTF':
-                countryToGoTo = 'LAOS!';
+                countryToGoTo = 'TENERIFE';
                 break;
             case 'TTTFT':
-                countryToGoTo = 'SANTIAGO, U.S.A!';
+                countryToGoTo = 'SANTIAGO, U.S.A';
                 break;
             case 'TTTFF':
-                countryToGoTo = 'VALENCIA, SPAIN!';
+                countryToGoTo = 'VALENCIA, SPAIN';
                 break;
             case 'TTFTT':
-                countryToGoTo = '5';
+                countryToGoTo = 'LAOS';
                 break;
             case 'TTFTF':
-                countryToGoTo = '6';
+                countryToGoTo = 'COLUMBIA';
                 break;
             case 'TTFFT':
-                countryToGoTo = '7';
+                countryToGoTo = 'KUALA LUMPUR, MALAYSIA';
                 break;
             case 'TTFFF':
-                countryToGoTo = '8';
+                countryToGoTo = 'TURKEY';
                 break;
             case 'TFTTT':
-                countryToGoTo = '9';
+                countryToGoTo = 'QUEENSLAND, AUSTRALIA';
                 break;
             case 'TFTTF':
-                countryToGoTo = '10';
+                countryToGoTo = 'BARBADOS';
                 break;
             case 'TFTFT':
-                countryToGoTo = '11';
+                countryToGoTo = 'PORTUGAL';
                 break;
             case 'TFTFF':
-                countryToGoTo = '12';
+                countryToGoTo = 'SEVILLE, SPAIN';
                 break;
             case 'TFFTT':
-                countryToGoTo = '13';
+                countryToGoTo = 'NORTHERN PROVINCE, SRI LANKA';
                 break;
             case 'TFFTF':
-                countryToGoTo = '14';
+                countryToGoTo = 'BORNEO';
                 break;
-            case 'TFFFT':
-                countryToGoTo = '15';
+            case 'TFFFT': 
+                countryToGoTo = 'OMAN';
                 break;
             case 'TFFFF':
-                countryToGoTo = '16';
+                countryToGoTo = 'KUWAIT';
                 break;
             case 'FTTTT':
-                countryToGoTo = '17';
+                countryToGoTo = 'BRITISH COLUMBIA, CANADA';
                 break;
             case 'FTTTF':
-                countryToGoTo = '18';
+                countryToGoTo = 'SWITZERLAND';
                 break;
             case 'FTTFT':
-                countryToGoTo = '19';
+                countryToGoTo = 'VAL-D\'SERE, FRANCE';
                 break;
             case 'FTTFF':
-                countryToGoTo = '20';
+                countryToGoTo = 'ZURICH, SWITZERLAND';
                 break;
             case 'FTFTT':
-                countryToGoTo = '21';
+                countryToGoTo = 'LIECHTENSTEIN';
                 break;
             case 'FTFTF':
-                countryToGoTo = '22';
+                countryToGoTo = 'ULUGH MUZTAGH, CHINA';
                 break;
             case 'FTFFT':
-                countryToGoTo = '23';
+                countryToGoTo = 'ULAAN BATAAR, MONGOLIA';
                 break;
             case 'FTFFF':
-                countryToGoTo = '24';
+                countryToGoTo = 'FUJI, JAPAN';
                 break;
             case 'FFTTT':
-                countryToGoTo = '25';
+                countryToGoTo = 'DENMARK';
                 break;
             case 'FFTTF':
-                countryToGoTo = '26';
+                countryToGoTo = 'NEW FOREST, ENGLAND';
                 break;
             case 'FFTFT':
-                countryToGoTo = '27';
+                countryToGoTo = 'TORONTO, CANADA';
                 break;
             case 'FFTFF':
-                countryToGoTo = '28';
+                countryToGoTo = 'NORTH POLE, ARCTIC';
                 break;
             case 'FFFTT':
-                countryToGoTo = '29';
+                countryToGoTo = 'ICELAND';
                 break;
             case 'FFFTF':
-                countryToGoTo = '30';
+                countryToGoTo = 'ESTONIA';
                 break;
             case 'FFFFT':
-                countryToGoTo = '31';
+                countryToGoTo = 'FINLAND';
                 break;
             case 'FFFFF':
-                countryToGoTo = '32';
+                countryToGoTo = 'MOSCOW, RUSSIA';
         }
 
         resultsContainer.innerHTML = `${countryToGoTo}!`;
