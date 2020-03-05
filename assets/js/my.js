@@ -37,6 +37,7 @@
         quizContainer.innerHTML = output.join('');
 
     }
+    
     function showResults() {
 
         const answerContainers = quizContainer.querySelectorAll('.answers');  // finding all the possible answers from the quiz 
@@ -163,6 +164,10 @@
         showSlide(currentSlide - 1);
     }
 
+    $("#submit").click(function(){
+        $(".quiz-container").hide();
+    })
+
     // Variables
     const quizContainer = document.getElementById("quiz");
     const resultsContainer = document.getElementById("results");
@@ -221,7 +226,6 @@
     previousButton.addEventListener('click', showPreviousSlide);
 
     
-
     const slides = document.querySelectorAll(".slide");
     let currentSlide = 0;
     
