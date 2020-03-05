@@ -45,7 +45,6 @@ footer {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     padding-top: 20px;
-    padding-bottom: 20px;
     font-weight: 900;
     font-size: 32px;
     line-height: 50px;
@@ -58,7 +57,7 @@ footer {
     color: #07375d;
     padding-top: 15px;
     font-weight: 900;
-    font-size: 27px;
+    font-size: 26px;
 }
 
 
@@ -202,6 +201,7 @@ nav {
     height: 300px;
     position: static;
     border-radius: 15px;
+    text-align: center;
 }
 
 .mapsContainer {
@@ -287,7 +287,7 @@ hr {
 
 @media (min-width: 1024px) {
     .question {
-        font-size: 34px;
+        font-size: 32px;
     }
 }
 
@@ -302,10 +302,41 @@ hr {
     padding-top: 100px;
 }
 
-@media (min-width:1440px) {
+
+/* @media (min-width:1440px) {
     .homePageHeading {
+        font-size: 50px;
+    }
+} */
+
+@media (min-width: 1900px) {
+    .homePageHeading {
+        padding-top: 250px;
+        font-size: 80px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 2540px) {
+    button {
         font-size: 50px;
     }
 }
 
+@media (min-width: 2540px) {
+    .quiz-container {
+        height: 300px;
+    }
+}
 
+@media (min-width: 2540px) {
+    .question {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 2540px) {
+    .answers {
+        font-size: 30px;
+    }
+}

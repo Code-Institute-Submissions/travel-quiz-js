@@ -291,10 +291,10 @@
 
     function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 3,
+        zoom: 5,
         center: {
-            lat: 46.619261,     // add a case statement with all lng and lat, depends on the tf string.. 
-            lng: -33.1344766
+            lat: 51.509865,     // add a case statement with all lng and lat, depends on the tf string.. 
+            lng: -0.118092
         }
     });
 }
