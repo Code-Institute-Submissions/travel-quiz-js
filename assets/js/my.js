@@ -168,6 +168,22 @@
         $(".quiz-container").hide();
     })
 
+    $("#submit").click(function(){
+        $("button").hide();
+    })
+
+    $("#results").hide();
+
+    $("#submit").click(function(){
+        $("#results").show();
+    })
+
+    $("#map").hide();
+
+    $("#submit").click(function(){
+        $("#map").show();
+    })
+
     // Variables
     const quizContainer = document.getElementById("quiz");
     const resultsContainer = document.getElementById("results");
@@ -230,22 +246,21 @@
     let currentSlide = 0;
     
     showSlide(currentSlide);
-    
 
 })();
 
 /*-- JavaScript for Google Maps ---*/
 
+//     function initMap() {
+//     var map = new google.maps.Map(document.getElementById("map"), {
+//         zoom: 3,
+//         center: {
+//             lat: 46.619261,     // add a case statement with all lng and lat, depends on the tf string.. 
+//             lng: -33.1344766
+//         }
+//     });
+// }
 
-function initMap() {
-    var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 3,
-        center: {
-            lat: 46.619261,     // add a case statement with all lng and lat, depends on the tf string.. 
-            lng: -33.1344766
-        }
-    });
-}
 
 // 
 /*-- Javascript for About page stylings --*/
