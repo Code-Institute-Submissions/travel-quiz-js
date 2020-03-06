@@ -1,8 +1,8 @@
+// Inspiration was taken from https://www.sitepoint.com/simple-javascript-quiz/ to build the basic structure
+// of the quiz and then edited and added too to gain the required result. 
+
 
 (function () {
-
-    // functions: 
-    // 1) buildQuiz 2) showSlide 3) showNextSlide 4) showPreviousSlide 5) showResults
 
     function buildQuiz() {   // making the innerhtml of the quiz container including radio buttons, questions etc. 
 
@@ -16,7 +16,7 @@
                 for (letter in currentQuestion.answers) {
                     answers.push(
                         `<label>
-                <input type="radio" class="radioBig" name="question${questionNumber}" value="${letter}">  
+                <input type="radio" class="radioBig" name="question${questionNumber}" value="${letter}" required>  
                 ${letter} :
                 ${currentQuestion.answers[letter]}
                 </label>`
@@ -37,13 +37,16 @@
         quizContainer.innerHTML = output.join('');
 
     }
-    
+
+    /*--- Stringing together results and rendering the correct Country in the results container ---*/
+
     function showResults() {
 
         const answerContainers = quizContainer.querySelectorAll('.answers');  // finding all the possible answers from the quiz 
-
+        
         var answerArray = "";
         var countryToGoTo = "";
+        var latlng = {};
 
         myQuestions.forEach((currentQuestion, questionNumber) => {
 
@@ -55,7 +58,7 @@
                 console.log('true');
                 answerArray = answerArray.concat('T');
             } else {
-                console.log('false');
+                console.log('false');                          // need to add an if else for false incorrect answers and an else alert : required to check
                 answerArray = answerArray.concat('F');
             }
 
@@ -68,47 +71,103 @@
         switch (answerArray) {
             case 'TTTTT':
                 countryToGoTo = 'HAWAII';
+                latlng = {
+                    lat: 19.8968,
+                    lng: -155.5828
+                }
                 break;
             case 'TTTTF':
                 countryToGoTo = 'TENERIFE';
+                latlng = {
+                    lat: 28.048906,
+                    lng: -16.711597
+                }
                 break;
             case 'TTTFT':
-                countryToGoTo = 'SANTIAGO, U.S.A';
+                countryToGoTo = 'SANTIAGO, CHILE';
+                latlng = {
+                    lat: -33.459229,
+                    lng: -70.645348
+                }
                 break;
             case 'TTTFF':
                 countryToGoTo = 'VALENCIA, SPAIN';
+                latlng = {
+                    lat: 39.466667,
+                    lng: -0.375000
+                }
                 break;
             case 'TTFTT':
                 countryToGoTo = 'LAOS';
+                latlng = {
+                    lat: 19.8562698,
+                    lng: 102.4954987
+                }
                 break;
             case 'TTFTF':
                 countryToGoTo = 'COLUMBIA';
+                latlng = {
+                    lat: 39.203712,
+                    lng: -76.861046
+                }
                 break;
             case 'TTFFT':
                 countryToGoTo = 'KUALA LUMPUR, MALAYSIA';
+                latlng = {
+                    lat: 3.140853,
+                    lng: 101.693207
+                }
                 break;
             case 'TTFFF':
                 countryToGoTo = 'TURKEY';
+                latlng = {
+                    lat: 41.015137,
+                    lng: 28.979530
+                }
                 break;
             case 'TFTTT':
                 countryToGoTo = 'QUEENSLAND, AUSTRALIA';
+                latlng = {
+                    lat: 41.015137,
+                    lng: 28.979530
+                }
                 break;
             case 'TFTTF':
                 countryToGoTo = 'BARBADOS';
+                latlng = {
+                    lat: 13.193887,
+                    lng: -59.543198
+                }
                 break;
             case 'TFTFT':
                 countryToGoTo = 'PORTUGAL';
+                latlng = {
+                    lat: 38.736946,
+                    lng: -9.142685
+                }
                 break;
             case 'TFTFF':
                 countryToGoTo = 'SEVILLE, SPAIN';
+                latlng = {
+                    lat: 37.392529,
+                    lng: -5.994072
+                }
                 break;
             case 'TFFTT':
                 countryToGoTo = 'NORTHERN PROVINCE, SRI LANKA';
+                latlng = {
+                    lat: 9.6684504,
+                    lng: 80.0074234
+                }
                 break;
             case 'TFFTF':
                 countryToGoTo = 'BORNEO';
+                latlng = {
+                    lat: 3.354681,
+                    lng: 117.596543
+                }
                 break;
-            case 'TFFFT': 
+            case 'TFFFT':
                 countryToGoTo = 'OMAN';
                 break;
             case 'TFFFF':
@@ -161,26 +220,36 @@
                 break;
             case 'FFFFF':
                 countryToGoTo = 'MOSCOW, RUSSIA';
+            default: 
+                countryToGoTo = 'Please start the quiz again.. there seems to be an error';
+                // lnglat = {
+                //     lat: 15.326572,
+                //     lng: -76.157227
+                // }
         }
+
+        initMap(latlng);
 
         resultsContainer.innerHTML = `${countryToGoTo}!`;
 
     }
+
+    /* -- Show questions and next, previous and submit buttoms --*/
 
     function showSlide(n) {
         slides[currentSlide].classList.remove('active-slide');
         slides[n].classList.add('active-slide');
         currentSlide = n;
 
-        if(currentSlide === 0){
+        if (currentSlide === 0) {
             previousButton.style.display = 'none';
-        } else{
+        } else {
             previousButton.style.display = 'inline-block';
         }
-        if(currentSlide === slides.length-1){
+        if (currentSlide === slides.length - 1) {
             nextButton.style.display = 'none';
             submitButton.style.display = 'inline-block';
-        } else{
+        } else {
             nextButton.style.display = 'inline-block';
             submitButton.style.display = 'none';
         }
@@ -193,33 +262,35 @@
         showSlide(currentSlide - 1);
     }
 
-    $("#submit").click(function(){
+    /*-- Show and Hide Quiz container, Results containers, Buttons and Google Maps --*/
+
+    $("#submit").click(function () {
         $(".quiz-container").hide();
-    })
+    });
 
-    $("#submit").click(function(){
+    $("#submit").click(function () {
         $("#submit").hide();
-    })
+    });
 
-    $("#submit").click(function(){
+    $("#submit").click(function () {
         $("#previous").hide();
-    })
+    });
 
-    $("#submit").click(function(){
+    $("#submit").click(function () {
         $("#next").hide();
-    })
+    });
 
     $("#results").hide();
 
-    $("#submit").click(function(){
+    $("#submit").click(function () {
         $("#results").show();
-    })
+    });
 
     $("#map").hide();
 
-    $("#submit").click(function(){
+    $("#submit").click(function () {
         $("#map").show();
-    })
+    });
 
     // Variables
     const quizContainer = document.getElementById("quiz");
@@ -271,37 +342,27 @@
         }
     ];
 
-    buildQuiz();
+    buildQuiz(); 
 
     // Event Listeners
     submitButton.addEventListener('click', showResults);
     nextButton.addEventListener('click', showNextSlide);
     previousButton.addEventListener('click', showPreviousSlide);
 
-    
+
     const slides = document.querySelectorAll(".slide");
     let currentSlide = 0;
-    
+
     showSlide(currentSlide);
 
-})();
-
-/*-- JavaScript for Google Maps ---*/
-
-    function initMap() {
+    function initMap(latlng) {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 5,
-        center: {
-            lat: 51.509865,     // add a case statement with all lng and lat, depends on the tf string.. 
-            lng: -0.118092
-        }
+        center: latlng
     });
+   
 }
 
 
-// 
-/*-- Javascript for About page stylings --*/
+})();
 
-// $("#card").mouseenter(function() {
-//     $("#card").css("color", "#fff");
-// });
