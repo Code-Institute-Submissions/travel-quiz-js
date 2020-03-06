@@ -61,6 +61,7 @@ the colours on the background photo. The buttons change to a darker purple when 
 The user will know to click and move onto the next step.</li></ul>
 
 <h2>Wireframes</h2>
+<p>All Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/)</p>
 
 <h2>Features</h2>
 
@@ -80,6 +81,7 @@ The user will know to click and move onto the next step.</li></ul>
 <li>GitPod</li>
 <li>Google Fonts</li>
 <li>Font Awesome</li>
+<li>Balsamiq Wireframes</li>
 <li></li>
 </ul>
 
@@ -93,14 +95,16 @@ The user will know to click and move onto the next step.</li></ul>
 <p>All content written in this project was written by the developer.</p>
 
 <h3>Media (Images)</h3>
-<ul><li>I sourced my background photo from <a src="https://www.dreamstime.com/">dreamstime.</a>All copyrights belong to them.</li>
-<li>I sourced 4 icons on my 'About' page from <a src="https://fontawesome.com/icons?d=gallery&q=home">Font Awesome</a></li>
+<ul><li>I sourced my background photo from [dreamstime.](https://www.dreamstime.com/) All copyrights belong to them.</li>
+<li>I sourced 4 icons on my 'About' page from [Font Awesome.](https://fontawesome.com/icons?d=gallery&q=home)</li>
 </ul>
 
 <h3>Code</h3>
 <ul>
-<li>Nav bar from <a src="https://www.codeply.com/go/QAXbNGbWPA/bootstrap-4-navbar-transparent">Codeply & Bootstrap 4</a></li>
-<li>Box shadow codes were generated at <a src="https://www.cssmatic.com/box-shadow">CSS matic | box-shadow.</a></li>
+<li>I got inspiration for the basic structure of my quiz from [Site Point](https://www.sitepoint.com/simple-javascript-quiz/), I then changed
+and edited the JavaScript to fit my purpose/</li>
+<li>Nav bar from [Codeply & Bootstrap 4](https://www.codeply.com/go/QAXbNGbWPA/bootstrap-4-navbar-transparent)</li>
+<li>Box shadow codes were generated at [CSS matic | box-shadow.](https://www.cssmatic.com/box-shadow)</li>
 </ul>
 
 <h3>Achknowledgments</h3>
