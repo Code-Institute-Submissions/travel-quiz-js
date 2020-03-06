@@ -71,7 +71,10 @@ The user will know to click and move onto the next step.</li></ul>
 
 ## Wireframes
 All Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/)
-![](assets/wireframes/Desktop Homepage.png)
+![](https://ibb.co/JrNCL0k)
+![](https://ibb.co/pytVDzd)
+![](https://ibb.co/6FbJMbY)
+![](https://ibb.co/v1zQkTX)
 
 ## Features</h2>
 
