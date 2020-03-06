@@ -62,6 +62,7 @@ The user will know to click and move onto the next step.</li></ul>
 
 <h2>Wireframes</h2>
 <p>All Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/)</p>
+f<a src="ile:///C:/Users/sphwi/Documents/Code/Milestone2/Travel%20Quiz%20Wireframes.pdf"></a>
 
 <h2>Features</h2>
 
@@ -95,8 +96,8 @@ The user will know to click and move onto the next step.</li></ul>
 <p>All content written in this project was written by the developer.</p>
 
 <h3>Media (Images)</h3>
-<ul><li>I sourced my background photo from [dreamstime.](https://www.dreamstime.com/) All copyrights belong to them.</li>
-<li>I sourced 4 icons on my 'About' page from [Font Awesome.](https://fontawesome.com/icons?d=gallery&q=home)</li>
+<ul><li>I sourced my background photo from [dreamstime](https://www.dreamstime.com/) All copyrights belong to them.</li>
+<li>I sourced 4 icons on my 'About' page from [Font Awesome](https://fontawesome.com/icons?d=gallery&q=home)</li>
 </ul>
 
 <h3>Code</h3>
@@ -104,12 +105,12 @@ The user will know to click and move onto the next step.</li></ul>
 <li>I got inspiration for the basic structure of my quiz from [Site Point](https://www.sitepoint.com/simple-javascript-quiz/), I then changed
 and edited the JavaScript to fit my purpose/</li>
 <li>Nav bar from [Codeply & Bootstrap 4](https://www.codeply.com/go/QAXbNGbWPA/bootstrap-4-navbar-transparent)</li>
-<li>Box shadow codes were generated at [CSS matic | box-shadow.](https://www.cssmatic.com/box-shadow)</li>
+<li>Box shadow codes were generated at [CSS matic | box-shadow](https://www.cssmatic.com/box-shadow)</li>
 </ul>
 
 <h3>Achknowledgments</h3>
 <ul>
-<li>A special thanks to my mentor Spencer...</li>
+<li>A special thanks to my mentor Spencer for helping me throughout.</li>
 <li>Also to the student care team at The Code Institute for helping troubleshoot my code at those head scratching
 moments!</li>
 </ul>
