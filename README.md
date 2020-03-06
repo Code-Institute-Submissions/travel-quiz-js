@@ -1,4 +1,6 @@
-<h1>Travel Quiz</h1>
+<div align="center">
+
+# Travel Quiz</h1>
 
 <p>This site is a fully interative and responsive travel quiz, to help the user
 decide on where is best to travel dependant on their specific wants and needs 
@@ -7,7 +9,9 @@ a tailored recommendation for a destination, and more information as of where th
 on Google maps. I am also looking to include links to a flight and accomodation
 comparison sites.</p>
 
-<h2>Why is this project unique?</h2>
+<br>
+
+## Why is this project unique?
 <p>There are many accomodation and flight comparison sites out there, but you need to know
 the destination prior to researching. There are also quizzes out there to help you make a 
 decision on your destination. As far as I can see there is not a site to combine all the 
@@ -15,20 +19,22 @@ neccessary steps to travel, from researching the best place for you, to booking 
 As you can see in the `Releases` section, the amount and specificity of the questions will 
 increase and therefore the quiz will be unique within itself.</p>
 
-<h2>UX</h2>
+</div>
 
-<h3>Project Goals</h3>
+## UX
+
+### Project Goals
 <p>To provide an efficient way to help a user find there ideal travel destination
 without having to to lots of research into their requirements. Also to provide
 more information on that destination to aid with the follow up research needed.</p>
 
-<h3>User Goals</h3>
+### User Goals
 <p>To understand where to go away on their next travel exercution, somewhere that is
 completed suited to their preferences, saving them lots of time. Also wanting clear paths
 on where to go next so they can plan their trip</p>
 
-<h3>User Stories</h3>
-<h4>As a user...</h4>
+### User Stories</h3>
+#### As a user...</h4>
 <ol>
 <li>I want simple, concise questions so I can complete the quiz quickly.</li>
 <li>I don't want too many answer options so I don't get overwhelmed by the choice and can't make a decision.</li>
@@ -38,16 +44,18 @@ on where to go next so they can plan their trip</p>
 quiz and therefore expect a stepping stone into actioning my trip.</li>
 </ol>
 
-<h2>Design choices</h2>
+## Design choices
 <p>I have chosen a minilistic design, it is a simple front-end concept, therefore I wanted to keep all the attention on the quiz, 
 allowing the user to complete it with efficiency. The goal is to allow the user to relax and become excited for a rejuvinating get away. 
 I have kept all corners rounded to create a 'soft' affect, similarily I have added some transparency to containers holding content.
 </p>
-<h3>Background Image</h3>
+
+### Background Image
 <ul><li>This background image has a calming yet exciting feel due to the colour schemes. I chose purple, orange and pinks. 
 Orange and pink are exciting colours to grab attention, whilst purple is calming and trustworthy. I also chose this background image
 due to it's composition and perspective. The user is pulled into the scene and is now in the right mindset for the quiz!</li></ul>
-<h3>Font</h3>
+
+### Font
 <ul><li>The headings and nav bar headings are white in colour to stand out on top of a multicoloured background. 
 The questions are a dark blue to match the blue tones in the background and stand out in the question container.</li>
 <li>The font I chose was Montserrat. This is a simple but professional font, keeping in style with the minimilistic tone of the site.</li>
@@ -55,23 +63,24 @@ The questions are a dark blue to match the blue tones in the background and stan
 everyone is able to read the questions and answers with ease.
 </li>
 </ul>
-<h3>Buttons</h3>
+
+### Buttons
 <ul><li>The buttons are large on all devises, this is to ease of use. They are also consistent with the colour theme and compliment
 the colours on the background photo. The buttons change to a darker purple when the users cursor hovers over them, which turns into a pointer.
 The user will know to click and move onto the next step.</li></ul>
 
-<h2>Wireframes</h2>
-<p>All Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/)</p>
-f<a src="ile:///C:/Users/sphwi/Documents/Code/Milestone2/Travel%20Quiz%20Wireframes.pdf"></a>
+## Wireframes
+All Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/)
+![](assets/wireframes/Desktop Homepage.png)
 
-<h2>Features</h2>
+## Features</h2>
 
-<h2>Releases</h2>
-<h3>Release 1</h3>
-<h3>Release 2</h3>
-<h3>Release 3</h3>
+## Releases
+### Release 1
+### Release 2
+### Release 3
 
-<h2>Technologies Used</h2>
+## Technologies Used
 <ul>
 <li>HTML5</li>
 <li>CSS3</li>
@@ -83,7 +92,6 @@ f<a src="ile:///C:/Users/sphwi/Documents/Code/Milestone2/Travel%20Quiz%20Wirefra
 <li>Google Fonts</li>
 <li>Font Awesome</li>
 <li>Balsamiq Wireframes</li>
-<li></li>
 </ul>
 
 <h2>Testing</h2>
@@ -96,15 +104,15 @@ f<a src="ile:///C:/Users/sphwi/Documents/Code/Milestone2/Travel%20Quiz%20Wirefra
 <p>All content written in this project was written by the developer.</p>
 
 <h3>Media (Images)</h3>
-<ul><li>I sourced my background photo from [dreamstime](https://www.dreamstime.com/) All copyrights belong to them.</li>
+<ul><li>I sourced my background photo from [Dreamstime](https://www.dreamstime.com/) All copyrights belong to them.</li>
 <li>I sourced 4 icons on my 'About' page from [Font Awesome](https://fontawesome.com/icons?d=gallery&q=home)</li>
 </ul>
 
 <h3>Code</h3>
 <ul>
-<li>I got inspiration for the basic structure of my quiz from [Site Point](https://www.sitepoint.com/simple-javascript-quiz/), I then changed
-and edited the JavaScript to fit my purpose/</li>
-<li>Nav bar from [Codeply & Bootstrap 4](https://www.codeply.com/go/QAXbNGbWPA/bootstrap-4-navbar-transparent)</li>
+I got inspiration for the basic structure of my quiz from [Site Point](https://www.sitepoint.com/simple-javascript-quiz/), I then changed
+and edited the JavaScript to fit my purpose.
+<li>Nav bar from [Codeply & Bootstrap 4](https://www.codeply.com/go/QAXbNGbWPA/bootstrap-4-navbar-transparent) </li>
 <li>Box shadow codes were generated at [CSS matic | box-shadow](https://www.cssmatic.com/box-shadow)</li>
 </ul>
 
