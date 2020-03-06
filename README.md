@@ -13,10 +13,10 @@ comparison sites.</p>
 
 ## Why is this project unique?
 <p>There are many accomodation and flight comparison sites out there, but you need to know
-the destination prior to researching. There are also quizzes out there to help you make a 
+the destination prior to researching. There are also very simple quizzes out there to help you make a 
 decision on your destination. As far as I can see there is not a site to combine all the 
 neccessary steps to travel, from researching the best place for you, to booking your trip.
-As you can see in the `Releases` section, the amount and specificity of the questions will 
+As you can see in the **Releases** section, the amount and specificity of the questions will 
 increase and therefore the quiz will be unique within itself.</p>
 
 </div>
@@ -78,11 +78,51 @@ All Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/)
 
 ## Features</h2>
 
+### Existing Features
+1. #### About page
+- Allows user to learn about the Questionnaire, and how to tackle it, before beginning. It is simple, and broken
+down into 4 steps. 
+2. #### Next, Previous and Submit Buttons
+- Once started the Quiz, there are next and previous buttons when needed. Allows the user to smoothly
+transition onto the next question. Allows there to only be neccessary information on the page.
+3. #### Google maps on results 
+- Allows the user to pin point their recommended location and research further. 
+4. #### Footer
+- Simple footer with information about the developer and date created. 
+
+### Future Features
+1. #### Destination finder
+- At the start of their questionnaire, the user will be asked to input their destination. 
+This is allow for questions that are more precise to other factors or travelling. Therefore the 
+user will have a better tailored result. I will need to use other technologies to achieve this. 
+2. #### More detailed questions
+- I will include questions like "budget", "time that you are travelling" and "temperature". I will need to use other 
+technologies to achieve cross referencing these more specific answers, with possible destinations. 
+3. #### Animation 
+- Animation of a flying plane will be added to the front page. This is for fun, and to engage with 
+the user.
+4. #### API's to comparison sites
+- The user will be able to book flights, accomdation, car rental and activities through these connections 
+with other companies. 
+
+
 ## Releases
 
 ### Release 1
+- The first release will be a short quiz with 5 questions, the goal is to make accurate
+recommendations, dependant on the users answers, of where they should travel to. When told their
+destination, a Google Maps of that area will also be shown. 
 ### Release 2
+- The goal of the second release is to increase the size and specificity of the quiz to allow for 
+a presice location recommendation. The results will also be more informative, including links to comparison
+sites and general information, for example, weather specifics. 
 ### Release 3
+- The goal of the third release will be a large website with a very detailed questionnaire of 
+their travelling preferences. The questionnaire will begin by asking them their current location, or where they
+are travelling from and can therefore ask questions like **preferred airport** and **time travelling**. Once completed the 
+questionnaire you will be provided with accomodation and flight comparisons. Information on weather
+and costings, and all the extras needed to plan your time away. This will include API's to Booking.com and 
+Skyscanner.net. This questionnaire will become an virtual travel consultant. 
 
 ## Technologies Used
 
