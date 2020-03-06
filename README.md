@@ -1,6 +1,6 @@
 <div align="center">
 
-# Travel Quiz
+# Travel Questionnaire
 
 <p>This site is a fully interative and responsive travel quiz, to help the user
 decide on where is best to travel dependant on their specific wants and needs 
@@ -9,17 +9,18 @@ a tailored recommendation for a destination, and more information as of where th
 on Google maps. I am also looking to include links to a flight and accomodation
 comparison sites.</p>
 
-<br>
+#
 
 ## Why is this project unique?
 <p>There are many accomodation and flight comparison sites out there, but you need to know
-the destination prior to researching. There are also very simple quizzes out there to help you make a 
+the destination prior to researching. There are also very simple questionnaires out there to help you make a 
 decision on your destination. As far as I can see there is not a site to combine all the 
 neccessary steps to travel, from researching the best place for you, to booking your trip.
-As you can see in the **Releases** section, the amount and specificity of the questions will 
+As you can see in the Releases section, the amount and specificity of the questions will 
 increase and therefore the quiz will be unique within itself.</p>
-
 </div>
+
+#
 
 ## UX
 
@@ -28,10 +29,14 @@ increase and therefore the quiz will be unique within itself.</p>
 without having to to lots of research into their requirements. Also to provide
 more information on that destination to aid with the follow up research needed.</p>
 
+#
+
 ### User Goals
-<p>To understand where to go away on their next travel exercution, somewhere that is
-completed suited to their preferences, saving them lots of time. Also wanting clear paths
+<p>To understand where to go away on their next travel exertion, somewhere that is
+completely suited to their preferences, saving them lots of time. Also wanting clear paths
 on where to go next so they can plan their trip</p>
+
+#
 
 ### User Stories
 #### As a user...
@@ -65,6 +70,8 @@ The buttons are large on all devises, this is to ease of use. They are also cons
 the colours on the background photo. The buttons change to a darker purple when the users cursor hovers over them, which turns into a pointer.
 The user will know to click and move onto the next step.
 
+#
+
 ## Wireframes
 All Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/)
 
@@ -75,6 +82,8 @@ All Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/)
 [Mobile Question Page](https://ibb.co/6FbJMbY)
 
 [Mobile Results page](https://ibb.co/v1zQkTX)
+
+#
 
 ## Features</h2>
 
@@ -105,6 +114,7 @@ the user.
 - The user will be able to book flights, accomdation, car rental and activities through these connections 
 with other companies. 
 
+#
 
 ## Releases
 
@@ -122,7 +132,9 @@ their travelling preferences. The questionnaire will begin by asking them their 
 are travelling from and can therefore ask questions like **preferred airport** and **time travelling**. Once completed the 
 questionnaire you will be provided with accomodation and flight comparisons. Information on weather
 and costings, and all the extras needed to plan your time away. This will include API's to Booking.com and 
-Skyscanner.net. This questionnaire will become an virtual travel consultant. 
+Skyscanner.net. This questionnaire will become an virtual travel consultant.
+
+#
 
 ## Technologies Used
 
@@ -139,29 +151,56 @@ Skyscanner.net. This questionnaire will become an virtual travel consultant.
 - [Imgbb](https://imgbb.com/)
 - [WC3 Markup Validation](https://validator.w3.org/)
 
+#
+
 ## Testing
 
-I began my testing using [WC3 Markup Validation Service](https://validator.w3.org/).
+I began my testing using 
+
+[HTML WC3 Markup Validation Service](https://validator.w3.org/).
+
+[CSS WC3 Markup Validation Service](https://jigsaw.w3.org/css-validator/)
+
 
 - The index.html, I needed to put my anchor tag on the startQuiz button on the outside of the button not inside the element.
 - The about.html had no errors. 
 - The question.html had no errors. 
 - The main.css had no errors. 
 
+### User Stories testing
+
+### Manual Testing
+
+### Jasmine Testing
+
 ## Deployment
 
 Travel quiz project was created using GitPod and regularly pushed to GitHub using the built in terminal.
+
 1. git add ....file you are looking to push to GitHub
 2. git commit -m "message to push with file"
 3. git push
 
 I deployed the project using GitHub pages...
+
 1. Log into GitHub
 2. Find the repository **travel-js-quiz**
 3. Click into repository and click into **settings.** 
 4. Scroll down to find the **GitHub pages** section. 
 5. Click the dropdown named **none**, and select **master branch.**
 6. Automatically, GitHub creates a link for you in this section, the project is deployed.  
+
+#### Running this project locally
+
+1. Log into your GitHub
+2. Find the repository via this link [Travel Questionnaire](https://github.com/sw1ckham/travel-quiz-js)
+3. Click on **clone or download**, copy the clone URL under **clone with HTTPS**.
+4. Open up your IDE, and open **git bash**
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type **git clone**, and then paste the URL you copied. example: **$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY**
+7. Press Enter. Your local clone will be created.
+
+
 
 ## Credits
 
@@ -179,6 +218,7 @@ and edited the JavaScript to fit my purpose.
 - Nav bar from [Codeply & Bootstrap 4](https://www.codeply.com/go/QAXbNGbWPA/bootstrap-4-navbar-transparent)
 - Box shadow codes were generated at [CSS matic | box-shadow](https://www.cssmatic.com/box-shadow)
 - CSS prefixes were added using [Autoprefixer](https://autoprefixer.github.io/)
+- Card code on about page was taken from [BootStrap Documentation](https://getbootstrap.com/docs/4.3/components/card/) and edited.
 
 ### Achknowledgments
 - A special thanks to my mentor Spencer for helping me throughout.
