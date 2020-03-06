@@ -1,6 +1,6 @@
 <div align="center">
 
-# Travel Quiz</h1>
+# Travel Quiz
 
 <p>This site is a fully interative and responsive travel quiz, to help the user
 decide on where is best to travel dependant on their specific wants and needs 
@@ -33,16 +33,12 @@ more information on that destination to aid with the follow up research needed.<
 completed suited to their preferences, saving them lots of time. Also wanting clear paths
 on where to go next so they can plan their trip</p>
 
-### User Stories</h3>
-#### As a user...</h4>
-<ol>
-<li>I want simple, concise questions so I can complete the quiz quickly.</li>
-<li>I don't want too many answer options so I don't get overwhelmed by the choice and can't make a decision.</li>
-<li>I want to recieve confirmation I have answered and moved onto the next question.</li>
-<li>I want a simple design, so not to distract from the questions in the quiz.</li>
-<li>I want information on my chosen country so I can follow up from the quiz, there is a reason I decided to take the 
-quiz and therefore expect a stepping stone into actioning my trip.</li>
-</ol>
+### User Stories
+#### As a user...
+1. I want simple, concise questions so I can complete the quiz quickly.
+2. I don't want too many answer options so I don't get overwhelmed by the choice and can't make a decision.
+3. I want a simple design, so not to distract from the questions in the quiz.
+4. I want location information on my chosen country so I can follow up from the quiz.
 
 ## Design choices
 <p>I have chosen a minilistic design, it is a simple front-end concept, therefore I wanted to keep all the attention on the quiz, 
@@ -51,77 +47,100 @@ I have kept all corners rounded to create a 'soft' affect, similarily I have add
 </p>
 
 ### Background Image
-<ul><li>This background image has a calming yet exciting feel due to the colour schemes. I chose purple, orange and pinks. 
+- This background image has a calming yet exciting feel due to the colour schemes. I chose purple, orange and pinks. 
 Orange and pink are exciting colours to grab attention, whilst purple is calming and trustworthy. I also chose this background image
 due to it's composition and perspective. The user is pulled into the scene and is now in the right mindset for the quiz!</li></ul>
 
 ### Font
-<ul><li>The headings and nav bar headings are white in colour to stand out on top of a multicoloured background. 
-The questions are a dark blue to match the blue tones in the background and stand out in the question container.</li>
-<li>The font I chose was Montserrat. This is a simple but professional font, keeping in style with the minimilistic tone of the site.</li>
-<li>Font sizes are large and responsive throughout. There is a varied demographic that would complete this quiz, we need to make sure
+- The headings and nav bar headings are white in colour to stand out on top of a multicoloured background. 
+- The questions are a dark blue to match the blue tones in the background and stand out in the question container.</li>
+- The font I chose was Montserrat. This is a simple but professional font, keeping in style with the minimilistic tone of the site.</li>
+- Font sizes are large and responsive throughout. There is a varied demographic that would complete this quiz, we need to make sure
 everyone is able to read the questions and answers with ease.
-</li>
-</ul>
+
 
 ### Buttons
-<ul><li>The buttons are large on all devises, this is to ease of use. They are also consistent with the colour theme and compliment
+
+The buttons are large on all devises, this is to ease of use. They are also consistent with the colour theme and compliment
 the colours on the background photo. The buttons change to a darker purple when the users cursor hovers over them, which turns into a pointer.
-The user will know to click and move onto the next step.</li></ul>
+The user will know to click and move onto the next step.
 
 ## Wireframes
 All Wireframes were created using [Balsamiq Wireframes](https://balsamiq.com/)
-![](https://ibb.co/JrNCL0k)
-![](https://ibb.co/pytVDzd)
-![](https://ibb.co/6FbJMbY)
-![](https://ibb.co/v1zQkTX)
+
+[Mobile Homepage](https://ibb.co/JrNCL0k)
+
+[Desktop Homepage](https://ibb.co/pytVDzd)
+
+[Mobile Question Page](https://ibb.co/6FbJMbY)
+
+[Mobile Results page](https://ibb.co/v1zQkTX)
 
 ## Features</h2>
 
 ## Releases
+
 ### Release 1
 ### Release 2
 ### Release 3
 
 ## Technologies Used
-<ul>
-<li>HTML5</li>
-<li>CSS3</li>
-<li>JavaScript</li>
-<li>JQuery</li>
-<li>BootStrap4</li>
-<li>GitHub</li>
-<li>GitPod</li>
-<li>Google Fonts</li>
-<li>Font Awesome</li>
-<li>Balsamiq Wireframes</li>
-</ul>
 
-<h2>Testing</h2>
+- HTML5
+- CSS3
+- JavaScript
+- JQuery
+- BootStrap4
+- GitHub
+- GitPod
+- Google Fonts
+- Font Awesome
+- [Balsamiq Wireframes](https://balsamiq.com/)
+- [Imgbb](https://imgbb.com/)
+- [WC3 Markup Validation](https://validator.w3.org/)
 
-<h2>Deployment</h2>
+## Testing
 
-<h2>Credits</h2>
+I began my testing using [WC3 Markup Validation Service](https://validator.w3.org/).
 
-<h3>Content</h3>
+- The index.html, I needed to put my anchor tag on the startQuiz button on the outside of the button not inside the element.
+- The about.html had no errors. 
+- The question.html had no errors. 
+- The main.css had no errors. 
+
+## Deployment
+
+Travel quiz project was created using GitPod and regularly pushed to GitHub using the built in terminal.
+1. git add ....file you are looking to push to GitHub
+2. git commit -m "message to push with file"
+3. git push
+
+I deployed the project using GitHub pages...
+1. Log into GitHub
+2. Find the repository **travel-js-quiz**
+3. Click into repository and click into **settings.** 
+4. Scroll down to find the **GitHub pages** section. 
+5. Click the dropdown named **none**, and select **master branch.**
+6. Automatically, GitHub creates a link for you in this section, the project is deployed.  
+
+## Credits
+
+### Content
 <p>All content written in this project was written by the developer.</p>
 
-<h3>Media (Images)</h3>
-<ul><li>I sourced my background photo from [Dreamstime](https://www.dreamstime.com/) All copyrights belong to them.</li>
-<li>I sourced 4 icons on my 'About' page from [Font Awesome](https://fontawesome.com/icons?d=gallery&q=home)</li>
-</ul>
+### Media (Images)
+- I sourced my background photo from [Dreamstime](https://www.dreamstime.com/) All copyrights belong to them.
+- I sourced 4 icons on my 'About' page from [Font Awesome](https://fontawesome.com/icons?d=gallery&q=home)
 
-<h3>Code</h3>
-<ul>
-I got inspiration for the basic structure of my quiz from [Site Point](https://www.sitepoint.com/simple-javascript-quiz/), I then changed
+### Code
+
+- I got inspiration for the basic structure of my quiz from [Site Point](https://www.sitepoint.com/simple-javascript-quiz/), I then changed
 and edited the JavaScript to fit my purpose.
-<li>Nav bar from [Codeply & Bootstrap 4](https://www.codeply.com/go/QAXbNGbWPA/bootstrap-4-navbar-transparent) </li>
-<li>Box shadow codes were generated at [CSS matic | box-shadow](https://www.cssmatic.com/box-shadow)</li>
-</ul>
+- Nav bar from [Codeply & Bootstrap 4](https://www.codeply.com/go/QAXbNGbWPA/bootstrap-4-navbar-transparent)
+- Box shadow codes were generated at [CSS matic | box-shadow](https://www.cssmatic.com/box-shadow)
+- CSS prefixes were added using [Autoprefixer](https://autoprefixer.github.io/)
 
-<h3>Achknowledgments</h3>
-<ul>
-<li>A special thanks to my mentor Spencer for helping me throughout.</li>
-<li>Also to the student care team at The Code Institute for helping troubleshoot my code at those head scratching
-moments!</li>
-</ul>
+### Achknowledgments
+- A special thanks to my mentor Spencer for helping me throughout.
+- Also to the student care team at The Code Institute for helping troubleshoot my code at those head scratching
+moments!
