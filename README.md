@@ -44,6 +44,7 @@ on where to go next so they can plan their trip</p>
 2. I don't want too many answer options so I don't get overwhelmed by the choice and can't make a decision.
 3. I want a simple design, so not to distract from the questions in the quiz.
 4. I want location information on my chosen country so I can follow up from the quiz.
+5. I want a large font and buttons so I can navigate and read easily. 
 
 ## Design choices
 <p>I have chosen a minilistic design, it is a simple front-end concept, therefore I wanted to keep all the attention on the quiz, 
@@ -145,8 +146,8 @@ Skyscanner.net. This questionnaire will become an virtual travel consultant.
 - BootStrap4
 - GitHub
 - GitPod
-- Google Fonts
-- Font Awesome
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](https://fontawesome.com/)
 - [Balsamiq Wireframes](https://balsamiq.com/)
 - [Imgbb](https://imgbb.com/)
 - [WC3 Markup Validation](https://validator.w3.org/)
@@ -169,9 +170,38 @@ I began my testing using
 
 ### User Stories testing
 
+1. I want simple, concise questions so I can complete the quiz quickly.
+- The questions are actually statements, speaking as if we are the user. All of the statements are to the point, and 
+easy to understand. 
+2. I don't want too many answer options so I don't get overwhelmed by the choice and can't make a decision.
+- The questionnaire is based on true or false. Therefore there are only two options at present, keeping it simple for the user.
+3. I want a simple design, so not to distract from the questions in the quiz.
+- The design is minimilistic yet asthetically pleasing, only absolutely neccessary information is taking up real estate. 
+4. I want location information on my chosen country so I can follow up from the quiz.
+- A Google map is rendered on the results page and functions well. It successfully only shows the recommended destination. 
+5. I want a large font and buttons so I can navigate and read easily. 
+- All buttons are large and clear. The font is consistent, large and responsive dependant on the devise. 
+
+
 ### Manual Testing
+Myself and another person carried about the below tests on all sized devices, and different browsers: Google Chromer, Internet Explorer
+and Mozilla Firefox. 
+
+1. When you arrive on the homepage, the **Home** link in the nav bar is white, and the **Abour** link is a light grey. 
+2. When you hover over the **Start Quiz** button, the colour turns to a darker purple. 
+3. When you click on the **Start Quiz** button, there is no blue outline that appears. 
+
+##### Bugs Found
+
+1. When you click 'next' without actually checking any of the two possible answers, it would log your answers as if it was 'false,
+and return Russia. 
+
+2. When adding a default message to fix the bug above, the Google Maps would be blank as there was no longitude or latitude option. 
+
+
 
 ### Jasmine Testing
+
 
 ## Deployment
 
