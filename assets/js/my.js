@@ -105,10 +105,10 @@
                 }
                 break;
             case 'TTFTF':
-                countryToGoTo = 'COLUMBIA';
+                countryToGoTo = 'COLOMBIA';
                 latlng = {
-                    lat: 39.203712,
-                    lng: -76.861046
+                    lat: 3.900749,
+                    lng: -73.073215
                 }
                 break;
             case 'TTFFT':
@@ -121,15 +121,15 @@
             case 'TTFFF':
                 countryToGoTo = 'TURKEY';
                 latlng = {
-                    lat: 41.015137,
-                    lng: 28.979530
+                    lat: 38.963745,
+                    lng: 35.243322
                 }
                 break;
             case 'TFTTT':
                 countryToGoTo = 'QUEENSLAND, AUSTRALIA';
                 latlng = {
-                    lat: 41.015137,
-                    lng: 28.979530
+                    lat: -20.917574,
+                    lng: 142.702789
                 }
                 break;
             case 'TFTTF':
@@ -357,7 +357,7 @@
 
     function initMap(latlng) {
     var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 5,
+        zoom: 13,
         center: latlng
     });
    
