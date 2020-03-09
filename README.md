@@ -187,9 +187,22 @@ easy to understand.
 Myself and another person carried about the below tests on all sized devices, and different browsers: Google Chromer, Internet Explorer
 and Mozilla Firefox. 
 
-1. When you arrive on the homepage, the **Home** link in the nav bar is white, and the **Abour** link is a light grey. 
+1. When you arrive on the homepage, the **Home** link in the nav bar is white, and the **About** link is a light grey. 
+- Vice versa for the **About** page, the **About** page nav link is white, and the **Homepage** link is grey. 
 2. When you hover over the **Start Quiz** button, the colour turns to a darker purple. 
 3. When you click on the **Start Quiz** button, there is no blue outline that appears. 
+4. Once you have clicked **Start Quiz**, the first slide appears. 
+5. You can check both radio buttons, but you cannot check them both at the same time. 
+6. On your first question, only the **Next** button appears below the slide. 
+7. You can click **Next** and another slide appears, taking the place of the slide you were on. 
+8. On the second slide you have both the **Next** button, and the **Previous** button below the slide. 
+9. You are able to click **Previous** and change your previous answer. 
+10. If you go back and change any answers, you still have the correct result dependant on the answerArray switch statement.
+11. Click **Next** on each question without checking any of the answers, your result should be a default message saying **Please start the quiz again there seems to be an error**. 
+12. Repeat the above, but check only a 1 answer, your result should be the above default message. 
+13. Repeat the above 3 more times, first checking 2 answers, then 3 answers, then 4. As before, you should recieve the above default message.
+14. On the **About** page, you are able to start the quiz by clicking the **Start Quiz** button at the bottom of the page.  
+
 
 ##### Bugs Found
 
