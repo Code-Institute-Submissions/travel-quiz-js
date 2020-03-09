@@ -169,57 +169,130 @@
                 break;
             case 'TFFFT':
                 countryToGoTo = 'OMAN';
+                latlng = {
+                    lat: 21.5125828,
+                    lng: 55.9232559
+                }
                 break;
             case 'TFFFF':
                 countryToGoTo = 'KUWAIT';
+                latlng = {
+                    lat: 29.3116608,
+                    lng: 47.4817657
+                }
                 break;
             case 'FTTTT':
                 countryToGoTo = 'BRITISH COLUMBIA, CANADA';
+                latlng = {
+                    lat: 49.246292,
+                    lng: -123.116226
+                }
                 break;
             case 'FTTTF':
                 countryToGoTo = 'SWITZERLAND';
+                latlng = {
+                    lat: 46.8181877,
+                    lng: 8.2275124
+                }
                 break;
             case 'FTTFT':
                 countryToGoTo = 'VAL-D\'SERE, FRANCE';
+                latlng = {
+                    lat: 45.448032,
+                    lng: 6.980226
+                }
                 break;
             case 'FTTFF':
                 countryToGoTo = 'ZURICH, SWITZERLAND';
+                latlng = {
+                    lat: 47.3666687,
+                    lng: 8.5500002
+                }
                 break;
             case 'FTFTT':
                 countryToGoTo = 'LIECHTENSTEIN';
+                latlng = {
+                    lat: 47.1675,
+                    lng: 9.510530
+                }
                 break;
             case 'FTFTF':
                 countryToGoTo = 'ULUGH MUZTAGH, CHINA';
+                latlng = {
+                    lat: 36.40749837, 
+                    lng: 87.383831798
+                }
                 break;
             case 'FTFFT':
                 countryToGoTo = 'ULAAN BATAAR, MONGOLIA';
+                latlng = {
+                    lat: 47.92123, 
+                    lng: 106.918556
+                }
                 break;
             case 'FTFFF':
                 countryToGoTo = 'FUJI, JAPAN';
+                latlng = {
+                    lat: 35.360638,
+                    lng: 138.72905
+                }
                 break;
             case 'FFTTT':
                 countryToGoTo = 'DENMARK';
+                latlng = {
+                    lat: 55.676098,
+                    lng: 12.568337
+                }
                 break;
             case 'FFTTF':
                 countryToGoTo = 'NEW FOREST, ENGLAND';
+                latlng = {
+                    lat: 50.879, 
+                    lng: -1.6330
+                }
                 break;
             case 'FFTFT':
                 countryToGoTo = 'TORONTO, CANADA';
+                latlng = {
+                    lat: 43.65107, 
+                    lng: -79.347015
+                }
                 break;
             case 'FFTFF':
                 countryToGoTo = 'NORTH POLE, ARCTIC';
+                latlng = {
+                    lat: 64.751114, 
+                    lng: -147.349442
+                }
                 break;
             case 'FFFTT':
                 countryToGoTo = 'ICELAND';
+                latlng = {
+                    lat: 64.128288,
+                    lng: -21.827774
+                }
                 break;
             case 'FFFTF':
                 countryToGoTo = 'ESTONIA';
+                latlng = {
+                    lat: 59.4369583, 
+                    lng: 24.7535305
+                }
                 break;
             case 'FFFFT':
                 countryToGoTo = 'FINLAND';
+                latlng = {
+                    lat: 60.192059, 
+                    lng: 24.945831
+                }
                 break;
             case 'FFFFF':
                 countryToGoTo = 'MOSCOW, RUSSIA';
+                latlng = {
+                    lat: 55.751244, 
+                    lng: 37.618423
+                }
+                break
             default: 
                 countryToGoTo = 'Please start the quiz again.. there seems to be an error';
                 // lnglat = {
