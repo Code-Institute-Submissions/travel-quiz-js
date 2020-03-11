@@ -87,9 +87,16 @@ footer {
     font-size: 23px;
 }
 
+.aboutQuizBtn {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 #startQuiz {
     font-size: 30px!important;
+    outline: none;
 }
+
 
 button {
     color: #3d6086;
@@ -102,16 +109,17 @@ button {
     box-shadow: 1px 5px 5px 0px rgba(125,116,125,1);
     background-color: #f3cef9;
     font-size: 20px;
-    
 }
 
 button > a {
     color: #3d6086;
+    
 }
 
 button > a:hover {
     text-decoration: none; 
     color: #3d6086;
+    
 }
 
 button:hover{
@@ -140,6 +148,18 @@ button:hover{
 
 .submit {
     padding-top: 20px;
+}
+
+#next {
+    outline: none;
+}
+
+#previous {
+    outline: none;
+}
+
+#submit {
+    outline: none;
 }
 
 /*---- Nav bar from Codeply and Bootstrap4 https://www.codeply.com/go/QAXbNGbWPA/bootstrap-4-navbar-transparent  ---*/
@@ -223,7 +243,7 @@ nav {
 #results {
     color: #2c87d0;
     font-weight: 700;
-    font-size: Inherit;
+    font-size: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
