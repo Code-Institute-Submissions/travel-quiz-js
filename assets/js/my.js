@@ -16,7 +16,7 @@
                 for (letter in currentQuestion.answers) {
                     answers.push(
                         `<label>
-                <input type="radio" class="radioBig" name="question${questionNumber}" value="${letter}" required>  
+                <input type="radio" class="radioBig" name="question${questionNumber}" value="${letter}" checked="checked">  
                 ${letter} :
                 ${currentQuestion.answers[letter]}
                 </label>`
@@ -292,13 +292,7 @@
                     lat: 55.751244, 
                     lng: 37.618423
                 }
-                break
-            default: 
-                countryToGoTo = 'Please start the quiz again.. there seems to be an error';
-                // lnglat = {
-                //     lat: 15.326572,
-                //     lng: -76.157227
-                // }
+                break;
         }
 
         initMap(latlng);
