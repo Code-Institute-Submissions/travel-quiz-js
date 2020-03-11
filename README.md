@@ -216,7 +216,7 @@ and return Russia.
 1. I tried a number of methods to fix this bug. Firstly I tried including **required** into the input element in my.js file. 
 This did not work. Therefore I researched and found that if I used a dropdown for my answers, it would require the user to have to
 pick as result before moving on. I thought this through and decided this would not lend itself to the design of the site and ease of use. 
-My best option was defensive programming; to have one of the answer radio buttons always checked, therefore the user is forced to change the answer if needed. 
+My best option was defensive programming; to have one of the answer radio buttons always **checked**, therefore the user is forced to change the answer if needed. 
 
 2. The above resolve also resolved my second bug as there was now no need for a default message at all as there was no option for error now, 
 and therefore no need for an error Google Maps. 
