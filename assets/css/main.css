@@ -318,12 +318,6 @@ nav {
 }
 
 
-/* @media (min-width:1440px) {
-    .homePageHeading {
-        font-size: 50px;
-    }
-} */
-
 @media (min-width: 1900px) {
     .homePageHeading {
         padding-top: 250px;
