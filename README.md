@@ -162,12 +162,16 @@ I began my testing using
 
 [CSS WC3 Markup Validation Service](https://jigsaw.w3.org/css-validator/)
 
+[JSHint](https://jshint.com/)
+
 
 - The index.html, I needed to put my anchor tag on the startQuiz button on the outside of the button not inside the element.
 - The about.html had no errors. 
 - The question.html had no errors. 
 - The main.css had no errors. 
 
+- JSHint pointed out I needed semi-colons at the end of each of my case statements, I have added the neccessary semi-colons now. 
+- No other errors, just warnings in regards to **const** being available in ES6, or Mozilla JS extensions.
 ### User Stories testing
 
 1. I want simple, concise questions so I can complete the quiz quickly.
