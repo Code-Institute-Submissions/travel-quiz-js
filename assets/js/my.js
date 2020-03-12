@@ -50,15 +50,15 @@
 
         myQuestions.forEach((currentQuestion, questionNumber) => {
 
-            const answerContainer = answerContainers[questionNumber];   // ?  
-            const selector = `input[name=question${questionNumber}]:checked`;   // ?
-            const userAnswer = (answerContainer.querySelector(selector) || {}).value;  // ? finding specifically the checked answers
+            const answerContainer = answerContainers[questionNumber];  
+            const selector = `input[name=question${questionNumber}]:checked`;   
+            const userAnswer = (answerContainer.querySelector(selector) || {}).value;  
 
             if (userAnswer === currentQuestion.correctAnswer) {
                 console.log('true');
                 answerArray = answerArray.concat('T');
             } else {
-                console.log('false');                          // need to add an if else for false incorrect answers and an else alert : required to check
+                console.log('false');                         
                 answerArray = answerArray.concat('F');
             }
 
@@ -74,224 +74,224 @@
                 latlng = {
                     lat: 19.8968,
                     lng: -155.5828
-                }
+                };
                 break;
             case 'TTTTF':
                 countryToGoTo = 'TENERIFE';
                 latlng = {
                     lat: 28.048906,
                     lng: -16.711597
-                }
+                };
                 break;
             case 'TTTFT':
                 countryToGoTo = 'SANTIAGO, CHILE';
                 latlng = {
                     lat: -33.459229,
                     lng: -70.645348
-                }
+                };
                 break;
             case 'TTTFF':
                 countryToGoTo = 'VALENCIA, SPAIN';
                 latlng = {
                     lat: 39.466667,
                     lng: -0.375000
-                }
+                };
                 break;
             case 'TTFTT':
                 countryToGoTo = 'LAOS';
                 latlng = {
                     lat: 19.8562698,
                     lng: 102.4954987
-                }
+                };
                 break;
             case 'TTFTF':
                 countryToGoTo = 'COLOMBIA';
                 latlng = {
                     lat: 3.900749,
                     lng: -73.073215
-                }
+                };
                 break;
             case 'TTFFT':
                 countryToGoTo = 'KUALA LUMPUR, MALAYSIA';
                 latlng = {
                     lat: 3.140853,
                     lng: 101.693207
-                }
+                };
                 break;
             case 'TTFFF':
                 countryToGoTo = 'TURKEY';
                 latlng = {
                     lat: 38.963745,
                     lng: 35.243322
-                }
+                };
                 break;
             case 'TFTTT':
                 countryToGoTo = 'QUEENSLAND, AUSTRALIA';
                 latlng = {
                     lat: -20.917574,
                     lng: 142.702789
-                }
+                };
                 break;
             case 'TFTTF':
                 countryToGoTo = 'BARBADOS';
                 latlng = {
                     lat: 13.193887,
                     lng: -59.543198
-                }
+                };
                 break;
             case 'TFTFT':
                 countryToGoTo = 'PORTUGAL';
                 latlng = {
                     lat: 38.736946,
                     lng: -9.142685
-                }
+                };
                 break;
             case 'TFTFF':
                 countryToGoTo = 'SEVILLE, SPAIN';
                 latlng = {
                     lat: 37.392529,
                     lng: -5.994072
-                }
+                };
                 break;
             case 'TFFTT':
                 countryToGoTo = 'NORTHERN PROVINCE, SRI LANKA';
                 latlng = {
                     lat: 9.6684504,
                     lng: 80.0074234
-                }
+                };
                 break;
             case 'TFFTF':
                 countryToGoTo = 'BORNEO';
                 latlng = {
                     lat: 3.354681,
                     lng: 117.596543
-                }
+                };
                 break;
             case 'TFFFT':
                 countryToGoTo = 'OMAN';
                 latlng = {
                     lat: 21.5125828,
                     lng: 55.9232559
-                }
+                };
                 break;
             case 'TFFFF':
                 countryToGoTo = 'KUWAIT';
                 latlng = {
                     lat: 29.3116608,
                     lng: 47.4817657
-                }
+                };
                 break;
             case 'FTTTT':
                 countryToGoTo = 'BRITISH COLUMBIA, CANADA';
                 latlng = {
                     lat: 49.246292,
                     lng: -123.116226
-                }
+                };
                 break;
             case 'FTTTF':
                 countryToGoTo = 'SWITZERLAND';
                 latlng = {
                     lat: 46.8181877,
                     lng: 8.2275124
-                }
+                };
                 break;
             case 'FTTFT':
                 countryToGoTo = 'VAL-D\'SERE, FRANCE';
                 latlng = {
                     lat: 45.448032,
                     lng: 6.980226
-                }
+                };
                 break;
             case 'FTTFF':
                 countryToGoTo = 'ZURICH, SWITZERLAND';
                 latlng = {
                     lat: 47.3666687,
                     lng: 8.5500002
-                }
+                };
                 break;
             case 'FTFTT':
                 countryToGoTo = 'LIECHTENSTEIN';
                 latlng = {
                     lat: 47.1675,
                     lng: 9.510530
-                }
+                };
                 break;
             case 'FTFTF':
                 countryToGoTo = 'ULUGH MUZTAGH, CHINA';
                 latlng = {
                     lat: 36.40749837, 
                     lng: 87.383831798
-                }
+                };
                 break;
             case 'FTFFT':
                 countryToGoTo = 'ULAAN BATAAR, MONGOLIA';
                 latlng = {
                     lat: 47.92123, 
                     lng: 106.918556
-                }
+                };
                 break;
             case 'FTFFF':
                 countryToGoTo = 'FUJI, JAPAN';
                 latlng = {
                     lat: 35.360638,
                     lng: 138.72905
-                }
+                };
                 break;
             case 'FFTTT':
                 countryToGoTo = 'DENMARK';
                 latlng = {
                     lat: 55.676098,
                     lng: 12.568337
-                }
+                };
                 break;
             case 'FFTTF':
                 countryToGoTo = 'NEW FOREST, ENGLAND';
                 latlng = {
                     lat: 50.879, 
                     lng: -1.6330
-                }
+                };
                 break;
             case 'FFTFT':
                 countryToGoTo = 'TORONTO, CANADA';
                 latlng = {
                     lat: 43.65107, 
                     lng: -79.347015
-                }
+                };
                 break;
             case 'FFTFF':
                 countryToGoTo = 'NORTH POLE, ARCTIC';
                 latlng = {
                     lat: 64.751114, 
                     lng: -147.349442
-                }
+                };
                 break;
             case 'FFFTT':
                 countryToGoTo = 'ICELAND';
                 latlng = {
                     lat: 64.128288,
                     lng: -21.827774
-                }
+                };
                 break;
             case 'FFFTF':
                 countryToGoTo = 'ESTONIA';
                 latlng = {
                     lat: 59.4369583, 
                     lng: 24.7535305
-                }
+                };
                 break;
             case 'FFFFT':
                 countryToGoTo = 'FINLAND';
                 latlng = {
                     lat: 60.192059, 
                     lng: 24.945831
-                }
+                };
                 break;
             case 'FFFFF':
                 countryToGoTo = 'MOSCOW, RUSSIA';
                 latlng = {
                     lat: 55.751244, 
                     lng: 37.618423
-                }
+                };
                 break;
         }
 
